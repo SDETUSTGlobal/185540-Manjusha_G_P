@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("pic1.jpg");
+    background-position: center;
+    background-size: cover; 
+}
+nav{
+    display: flex;
+    padding: 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+list-style: none;
+display: inline;
+padding: 15px;
+position: relative;
+}
+.nav-links ul li a{
+    color:midnightblue;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    }
+    .univer{
+        width: 80%;
+        color: black;
+        font-style: italic;
+        font-size: 15px;
+        position: fixed;
+        top: 75%;
+        left: 10%;
+        text-align: center;
+    }
+    .univer p{
+
+        color: whitesmoke;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    }
+    
+.home{
+    text-shadow: 10px 7px 5px yellow;
+    color: darkgreen;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 15px;
+    border-color: darkblue;
+}
+.p-home{
+    color: orangered;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#add{
+    color: indigo;
+    padding: 20px;
+    border-style: dotted;
+    border-color: lawngreen;
+    border-radius: 80px;
+}
+.div{
+    border-color: maroon;
+    border-style: solid;
+    border-width: 50%;
+    border-radius: 80px;
+    color:red;
+    padding: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gold;
+    font-size: 25px;
+}
+.cou{
+    padding: 50px;
+    color: saddlebrown;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: mediumspringgreen;
+    color: navy;
+    }
+    button:active{background-color: orange;
+    color: black;}
+
+    .visit-btm{
+        position: absolute;
+        color: blue;
+        top:68%;
+        left: 40%;
+        cursor: pointer;
+        background-color: greenyellow;
+        border-color: darkred;
+        border-radius: 70px;
+        border-style: solid;
+            }
+            
+    .visit-btm:hover{
+        background-color: burlywood;
+        color: green;
+            }
+            .visit-btm:active{background-color: darkgreen;
+            color: darkred;}
+            .ab-head{
+                font-weight: bolder;
+                color: midnightblue;
+                background-position: center;
+                background-color:wheat;
+            }
+            
+#clo{color: red;}
+#li-cl{color:maroon;
+text-align: center;
+font-size: 50px;}
